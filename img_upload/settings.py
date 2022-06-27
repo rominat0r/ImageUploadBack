@@ -15,7 +15,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'img_upload/mediafiles')
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static/mediafiles')
 
 # URL used to access the media
 MEDIA_URL = '/media/'
